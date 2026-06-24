@@ -141,7 +141,7 @@ export default function App() {
             </p>
           </div>
           <div className="grid gap-5 lg:grid-cols-[1.2fr_0.8fr]">
-            <img loading="lazy" src="/clinic-waiting-warm.webp" alt="Ζεστός χώρος αναμονής" className="h-[200px] md:h-[400px] lg:h-[540px] w-full rounded-[2.2rem] object-cover" />
+            <img loading="lazy" src="/clinic-chair-angle.webp" alt="Ζεστός χώρος αναμονής" className="h-[200px] md:h-[400px] lg:h-[540px] w-full rounded-[2.2rem] object-cover" />
             <div className="grid grid-cols-2 gap-3 sm:gap-5">
               <img loading="lazy" src="/clinic-waiting-blue.webp" alt="Χώρος αναμονής" className="h-[120px] md:h-[220px] lg:h-[260px] w-full rounded-[1.2rem] sm:rounded-[1.8rem] object-cover" />
               <img loading="lazy" src="/clinic-hall.webp" alt="Υποδοχή και διάδρομος" className="h-[120px] md:h-[220px] lg:h-[260px] w-full rounded-[1.2rem] sm:rounded-[1.8rem] object-cover" />
@@ -192,12 +192,12 @@ export default function App() {
             </p>
           </div>
           <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
-            <img loading="lazy" src="/clinic-waiting-warm.webp" alt="Ζεστός χώρος αναμονής" className="h-[220px] md:h-[420px] lg:h-[560px] w-full rounded-[2.2rem] object-cover" />
+            <img loading="lazy" src="/clinic-chair-angle.webp" alt="Ζεστός χώρος αναμονής" className="h-[220px] md:h-[420px] lg:h-[560px] w-full rounded-[2.2rem] object-cover" />
             <div className="grid gap-5">
               <img loading="lazy" src="/clinic-equipment.webp" alt="Σύγχρονος εξοπλισμός" className="h-[140px] md:h-[220px] lg:h-[270px] w-full rounded-[2.2rem] object-cover" />
               <div className="grid grid-cols-2 gap-3 sm:gap-5">
                 <img loading="lazy" src="/clinic-treatment-new.webp" alt="Θεραπευτική διαδικασία" className="h-[120px] md:h-[220px] lg:h-[270px] w-full rounded-[2.2rem] object-cover" />
-                <img loading="lazy" src="/doctor-portrait.webp" alt="Η γιατρός μας" className="h-[120px] md:h-[220px] lg:h-[270px] w-full rounded-[2.2rem] object-cover" />
+                <img loading="lazy" src="/patient-closeup.webp" alt="Ασθενής στην καρέκλα" className="h-[120px] md:h-[220px] lg:h-[270px] w-full rounded-[2.2rem] object-cover" />
               </div>
             </div>
           </div>
