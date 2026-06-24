@@ -299,7 +299,7 @@
           <a class="service" href="javascript:void(0)" onclick="openService(2)"><small>03</small><strong>Αισθητική οδοντιατρική</strong><span>↗</span></a>
           <a class="service" href="javascript:void(0)" onclick="openService(3)"><small>04</small><strong>Λεύκανση</strong><span>↗</span></a>
           <a class="service" href="javascript:void(0)" onclick="openService(4)"><small>05</small><strong>Σφραγίσματα</strong><span>↗</span></a>
-          <a class="service" href="javascript:void(0)" onclick="openService(5)"><small><img src="public/cute-tooth.png" alt="" style="width:36px;height:36px;vertical-align:middle"></small><strong>Παιδοδοντιατρική φροντίδα</strong><span>↗</span></a>
+          <a class="service" href="javascript:void(0)" onclick="openService(5)"><small>06</small><strong>Παιδοδοντιατρική φροντίδα</strong><span>↗</span></a>
           <a class="service" href="javascript:void(0)" onclick="openService(6)"><small>07</small><strong>Επείγοντα περιστατικά</strong><span>↗</span></a>
           <a class="service" href="javascript:void(0)" onclick="openService(7)"><small>08</small><strong>Σχέδιο θεραπείας</strong><span>↗</span></a>
         </div>
@@ -617,7 +617,7 @@
         document.getElementById('svcNumber').textContent = 'Υπηρεσία ' + String(index + 1).padStart(2, '0');
         document.getElementById('svcTitle').textContent = s.title;
         document.getElementById('svcDesc').textContent = s.desc;
-        document.getElementById('svcIcon').textContent = s.icon;
+        document.getElementById('svcIcon').innerHTML = s.icon;
         document.getElementById('svcDurationLabel').textContent = s.durationLabel;
         document.getElementById('svcDurationValue').textContent = s.durationValue;
 
