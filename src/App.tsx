@@ -152,7 +152,7 @@ export default function App() {
           <div className="mt-3 grid grid-cols-3 gap-3 sm:mt-5 sm:gap-5">
             <img loading="lazy" src="/clinic-xray.webp" alt="Ψηφιακή ακτινογραφία" className="h-24 sm:h-48 md:h-60 lg:h-72 w-full rounded-[1rem] sm:rounded-[1.8rem] object-cover" />
             <img loading="lazy" src="/clinic-lounge.webp" alt="Άνετος χώρος αναμονής" className="h-24 sm:h-48 md:h-60 lg:h-72 w-full rounded-[1rem] sm:rounded-[1.8rem] object-cover" />
-            <img loading="lazy" src="/clinic-sterilization.webp" alt="Αποστείρωση εργαλείων" className="h-24 sm:h-48 md:h-60 lg:h-72 w-full rounded-[1rem] sm:rounded-[1.8rem] object-cover" />
+            <img loading="lazy" src="/dentist-xray-screen.webp" alt="Εξέταση ακτινογραφίας" className="h-24 sm:h-48 md:h-60 lg:h-72 w-full rounded-[1rem] sm:rounded-[1.8rem] object-cover" />
           </div>
         </div>
       </section>
@@ -219,7 +219,7 @@ export default function App() {
             </p>
             <div className="mt-10 grid gap-5 sm:grid-cols-3">
               <img loading="lazy" src="/dental-tools.webp" alt="Οδοντιατρικά εργαλεία" className="h-40 md:h-48 lg:h-60 rounded-[1.6rem] object-cover" />
-              <img loading="lazy" src="/dentist-xray-screen.webp" alt="Εξέταση ακτινογραφίας" className="h-40 md:h-48 lg:h-60 rounded-[1.6rem] object-cover" />
+              <img loading="lazy" src="/clinic-sterilization.webp" alt="Αποστείρωση εργαλείων" className="h-40 md:h-48 lg:h-60 rounded-[1.6rem] object-cover" />
               <div className="rounded-[1.6rem] bg-[#d7edf5] p-7">
                 <Star className="mb-16 fill-[#2d2d2d]" />
                 <p className="text-4xl font-light">10.0</p>
